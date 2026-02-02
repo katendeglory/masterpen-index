@@ -1,0 +1,14 @@
+{
+    "name": "masterpen-index",
+    "version": "1.0.0",
+    "description": "Master Pen - Book Sales Platform Index",
+    "main": "index.html",
+    "scripts": {
+        "dev": "serve . -p 8081",
+        "git:push": "git add . && git commit -am \"Yet another commit\" && git push origin main"
+    },
+    "devDependencies": {
+        "serve": "^14.2.1"
+    }
+}
+  
