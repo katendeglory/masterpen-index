@@ -5,9 +5,5 @@
     "main": "index.html",
     "scripts": {
         "git:push": "git add . && git commit -am \"Yet another commit\" && git push origin main"
-    },
-    "devDependencies": {
-        "serve": "^14.2.1"
     }
 }
-  
