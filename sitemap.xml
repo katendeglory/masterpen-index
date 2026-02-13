@@ -71,6 +71,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://index.masterpen.app/authors/gracia-muyaya</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/authors/jones-mubalo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/neuf-mois-sous-l-ombre-du-tout-puissant</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/comment-connaitre-sa-saison</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/les-lois-dynamiques-de-l-amour</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/la-saint-valentin-des-solitaires</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://index.masterpen.app/books/365-pensees-des-courageux</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
