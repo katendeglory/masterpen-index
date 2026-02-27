@@ -96,6 +96,61 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://index.masterpen.app/authors/joel-mbay</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/authors/chadrack-kalala</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/authors/dieudonne-kalonji-mukenyi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/authors/amosia-musa</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/renaissance</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/storm-sortir-d-une-tempete-malgre-tout</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/survol-sur-le-nouveau-testament</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/vous-etes-votre-propre-obstacle</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/allez-et-faites-reussir-votre-mariage</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/chaise-royale</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://index.masterpen.app/books/myfoudre-ou-l-art-de-la-tromperie</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://index.masterpen.app/books/rdc-vs-rwanda-eternels-perdants-jusqu-a-quand</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
