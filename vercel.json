@@ -1,11 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/books/:slug((?!.*\\.html$)[a-z0-9-]+)",
+      "source": "/books/:slug",
       "destination": "/books/:slug/index.html"
     },
     {
-      "source": "/authors/:slug((?!.*\\.html$)[a-z0-9-]+)",
+      "source": "/authors/:slug",
       "destination": "/authors/:slug/index.html"
     }
   ]

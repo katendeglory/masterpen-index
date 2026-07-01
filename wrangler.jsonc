@@ -1,9 +1,0 @@
-{
-  "name": "masterpen-index",
-  "compatibility_date": "2026-06-30",
-  "assets": {
-    "directory": ".",
-    "html_handling": "none",
-    "not_found_handling": "404-page"
-  }
-}

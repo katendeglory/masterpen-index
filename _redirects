@@ -1,6 +1,3 @@
-# Extensionless URLs -> directory index.html (200 rewrite, not redirect)
-/ /index.html 200
+# Extensionless URLs -> directory index.html
 /authors/:slug /authors/:slug/index.html 200
 /books/:slug /books/:slug/index.html 200
-
-# .html flat files are served directly (no rewrite needed on Apache/Vercel)
