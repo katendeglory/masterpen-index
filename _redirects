@@ -1,7 +1,6 @@
-# Flat .html files — must come before extensionless rules (Cloudflare/Netlify match :slug greedily)
-/authors/:slug.html /authors/:slug.html 200
-/books/:slug.html /books/:slug.html 200
-
-# Extensionless URLs -> directory index.html
+# Extensionless URLs -> directory index.html (200 rewrite, not redirect)
+/ /index.html 200
 /authors/:slug /authors/:slug/index.html 200
 /books/:slug /books/:slug/index.html 200
+
+# .html flat files are served directly (no rewrite needed on Apache/Vercel)
