@@ -1,7 +1,7 @@
-# Extensionless URLs -> index.html (200 rewrite, fixes soft 404)
-/books/:slug /books/:slug/index.html 200
-/authors/:slug /authors/:slug/index.html 200
+# Flat .html files — must come before extensionless rules (Cloudflare/Netlify match :slug greedily)
+/authors/:slug.html /authors/:slug.html 200
+/books/:slug.html /books/:slug.html 200
 
-# Legacy .html -> clean URL (301, fixes redirect errors + page-with-redirect)
-/books/:slug.html /books/:slug 301
-/authors/:slug.html /authors/:slug 301
+# Extensionless URLs -> directory index.html
+/authors/:slug /authors/:slug/index.html 200
+/books/:slug /books/:slug/index.html 200

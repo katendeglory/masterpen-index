@@ -1,6 +1,6 @@
 RewriteEngine On
 
-# Serve extensionless URLs from directory index.html (fixes soft 404)
+# Serve extensionless URLs from directory index.html
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^books/([a-z0-9-]+)/?$ books/$1/index.html [L]
@@ -9,8 +9,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^authors/([a-z0-9-]+)/?$ authors/$1/index.html [L]
 
-# Legacy .html URLs -> clean extensionless URLs (fixes redirect errors)
-RewriteRule ^books/(.+)\.html$ /books/$1 [R=301,L]
-RewriteRule ^authors/(.+)\.html$ /authors/$1 [R=301,L]
+# .html URLs are served as flat files (no redirect — canonical handles dedup)
 
 ErrorDocument 404 /404.html

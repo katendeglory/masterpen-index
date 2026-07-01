@@ -1,23 +1,11 @@
 {
-  "redirects": [
-    {
-      "source": "/books/:slug.html",
-      "destination": "/books/:slug",
-      "permanent": true
-    },
-    {
-      "source": "/authors/:slug.html",
-      "destination": "/authors/:slug",
-      "permanent": true
-    }
-  ],
   "rewrites": [
     {
-      "source": "/books/:slug",
+      "source": "/books/:slug((?!.*\\.html$)[a-z0-9-]+)",
       "destination": "/books/:slug/index.html"
     },
     {
-      "source": "/authors/:slug",
+      "source": "/authors/:slug((?!.*\\.html$)[a-z0-9-]+)",
       "destination": "/authors/:slug/index.html"
     }
   ]
