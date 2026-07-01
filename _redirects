@@ -1,0 +1,7 @@
+# Extensionless URLs -> index.html (200 rewrite, fixes soft 404)
+/books/:slug /books/:slug/index.html 200
+/authors/:slug /authors/:slug/index.html 200
+
+# Legacy .html -> clean URL (301, fixes redirect errors + page-with-redirect)
+/books/:slug.html /books/:slug 301
+/authors/:slug.html /authors/:slug 301

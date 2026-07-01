@@ -1,8 +1,4 @@
-# MasterPen Robots.txt
-# Allow all search engines to crawl the site
-
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://masterpen.app/sitemap.xml
+Sitemap: https://index.masterpen.app/sitemap.xml

@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "source": "/books/:slug.html",
+      "destination": "/books/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/authors/:slug.html",
+      "destination": "/authors/:slug",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/books/:slug",
+      "destination": "/books/:slug/index.html"
+    },
+    {
+      "source": "/authors/:slug",
+      "destination": "/authors/:slug/index.html"
+    }
+  ]
+}
